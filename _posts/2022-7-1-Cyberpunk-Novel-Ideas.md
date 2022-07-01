@@ -1,7 +1,7 @@
-----
+---
 layout: post
 title: Cyberpunk Novel Ideas 
-----
+---
 
 
 Summary
