@@ -1,6 +1,6 @@
 ----
 layout: post
-title: Cyberpunk novel ideas 
+title: Cyberpunk Novel Ideas 
 ----
 
 
