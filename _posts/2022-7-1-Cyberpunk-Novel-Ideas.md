@@ -20,10 +20,19 @@ dystopian future theme fit the jist of this story. But here's a flow chart of ho
 
 > Note: I'm inspired by a recent song by the band "Basement" and their beautiful song "Stigmata". After reading 
 the description for the band on spotify. I would like to credit my inspiration by quoting this beautifully souless 
-saying taken from an interview about the song; "*What if there is not light at the end of the tunnel? What if it's just darkness?"
+saying taken from an interview about the song; "*What if there is not light at the end of the tunnel? What if it's just darkness?"*
 
+Flavor notes 
+---
 
+- this society enables you to share you're "energy" for dolls( short for dollars ) and it 
+reflects what a sleep study looks like in real life 
 
 Flow chart
 ---
 
+1. Character wakes up and starts his day , all about the morning routine. He's messy, sure, but disorganized? 
+Hell no. 
+2. Commute to work, boring but oddly peaceful. The only conflict in this story is what goes on in his head . 
+3. Goes to the gas station that makes our protagonist day dream about having an intimate relationship, as he stares 
+out the reflective window , seeing himself with a parter for life 
