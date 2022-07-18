@@ -1,7 +1,0 @@
-#!/usr/bin/bash
-#simple script to make new posts 
-DATE=`date "+%Y-%m-%d"`
-DATE_WITH_TIME=`date "+%Y%m%d%H%M%S"` #add %3N as we want millisecond too
-read -p "Enter title for post: " FILENAME
-
-echo "$FILENAME-$DATE_WITH_TIME.md"

@@ -1,20 +1,41 @@
-import os
-import sys
+#!/usr/bin/env python3 
+#Ryan "buhfur" McVicker
 
-#script to create a template post for this github pages application 
-#format for posts in jekyll is let's say for this post here 
-'''
-FORMAT = year-month-day-title-goes-here.md
-INPUT : 
-    Date : 5-20-2002
-    Title : This is my first post 
+import os 
+import time
+import tempfile 
+#get the title of the file
+title = input("Enter the title of the file : ")
+title = title.replace(' ', '-')
 
-OUTPUT: ( could automatically find the date as well )
-    2002-5-20-This-is-my-first-post
-'''
+EDITOR = os.environ.get('EDITOR', 'vim') # set the editor to vim 
+
+#get the date format( in this case it would be +%F-[title-seperated-by-dashes]
+
+dt = time.strftime("%F")
+filename = f'_posts/{dt}-{title}.md'
+#Template string to automatically be put in the file 
+TEMPLATE=f'''
+---
+layout: post
+title: {filename}
+---
 
 '''
-TODO: 
-    [] - create a test file 
-    '''
-DATE = 'date "+%Y-%m-%d"'
+#print the file out in yyyy-mm-dd-title
+print(f'{filename} was created\n\n')
+
+
+#open the file and input the template text 
+try:
+
+    with open(filename, 'w') as file : 
+        file.write(TEMPLATE)
+
+    #open the file in vim 
+    print('text was appeneded to file ')
+
+
+except Exception as e: 
+    print(e) 
+
